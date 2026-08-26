@@ -1,0 +1,23 @@
+etl_project/
+│
+├── src/
+│   ├── api/
+│   │   ├── client.py
+│   │   └── __init__.py
+│   │
+│   ├── extraction/
+│   │   └── api_extractor.py
+│   │
+│   ├── models/
+│   │   └── api_models.py
+│   │
+│   └── utils/
+│       └── logger.py
+│
+├── tests/
+│   └── test_api.py
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+└── main.py
