@@ -1,0 +1,22 @@
+From the project root:
+
+python main.py
+
+You should see something like:
+
+
+Starting ETL API Extraction...
+Records extracted: 10
+{'id': 1, 'name': 'Leanne Graham', ...}
+{'id': 2, 'name': 'Ervin Howell', ...}
+
+
+Run the tests:
+
+pytest -v
+
+Expected:
+
+test_successful_api_call PASSED
+test_unauthorized_api PASSED
+test_timeout PASSED
