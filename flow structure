@@ -1,0 +1,13 @@
+main.py
+   ↓
+APIExtractor
+   ↓
+APIClient
+   ↓
+REST API
+   ↓
+JSON data
+   ↓
+Pydantic validation
+   ↓
+Extracted data
